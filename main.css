@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #F0F2F5;
+}
+h1 {
+    text-align: center;
+    color:#1877F2 ;
+    font-size: 40px;
+    font-weight: bold;
+
+    margin-top: 40px;
+   padding-bottom: -25px;
+}
+p {
+    padding: 15px 120px ;
+    
+    font-size: 16px;
+    font-weight: 550;
+}
+.container {
+    display: block;
+    position: relative;
+    left: 500px;
+    background-color: white ;
+    margin: 10px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: 420px;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1) ;
+}
+input {
+    display: block;
+    width: 380px;
+    height: 50px;
+    border-radius: 6px;
+    border: solid rgb(231, 221, 221);
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 50;
+    opacity: 40%;
+    
+}
+.input {
+    margin: 10px;
+    
+}
+.input:focus {
+    background-color: #5198F5;
+ color:  #5198F5 ;
+    
+}
+
+.Login-btn {
+    background-color: #1877f2;
+    border: none;
+    margin: 10px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 380px;
+    color: white;
+}
+a  {
+    
+text-decoration: none;
+
+}
+.password-f {
+    color:  #1877F2;
+font-size: 13px;
+line-height: 48px;
+    padding: 0 133px;
+}
+
+
+.creat-btn {
+   position: absolute;
+   right: 107px;
+  margin-top: 10px;
+  background-color: #36A420;
+  color: white;
+  border: none;
+ border-radius: 6px;
+ font-size: 17px;
+ font-weight: bold;
+ line-height: 48px;
+ padding: 0 16px;
+ cursor: pointer;
+}
+hr {
+width: 11rem ;
+opacity: 40%;
+}
+.hr2 {
+    position: absolute;
+    right: 10px;
+    top: 313px;
+}
+.hr1 {
+    margin-left: 5px ;
+}
+.or {
+    text-align: center;
+    position: relative;
+    bottom: 11px;
+   color: #96999e;
+}
+
+ul {
+    list-style: none ;
+   
+  padding: 50px 50px;
+   margin: 100px 10px ;
+   
+}
+li {
+    align-items: center;
+    float: left;
+
+}
+.eng {
+    padding-right: 5px;
+}
